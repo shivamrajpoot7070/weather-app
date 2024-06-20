@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.tab-container{
+
+    width:400px;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.weather-container{
+
+    width:400px;
+    height:400px;
+   background-image: url(pexels-jplenio-1118873.jpg);
+   background-size: cover;
+
+}
+
+.form-container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    height:30px;
+    width:350px; 
+    display: none;  
+}
+
+.form-container .form{
+   height:25px;
+    color:rgb(193, 9, 9);
+    box-shadow: 3px 3px 13px;
+    border:1px solid palevioletred;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.form-container .btn{
+    height:25px;
+    color:rgb(252, 35, 111);
+    box-shadow: 1px 1px 13px;
+    border:1px solid palevioletred;
+    padding: 2px;
+    border-radius: 3px;
+    width:25px;
+  
+}
+
+.user-info-container p{
+    text-align: center;
+    margin:10px;
+    padding: 10px;
+    padding-bottom: 10px;
+    color:blue;
+    font-size: 20px;
+
+}
+
+.parameter-container{
+    margin-top: 70px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.parameter p{
+    color:rgb(239, 241, 247);
+    padding-top:20px;
+}
+
+.show-weather{
+    display: block;
+    /* background-color: bisque; */
+}
+
+.tab{
+
+    margin-top: 30px;
+    background-color: rgb(45, 219, 213);
+    height:30px;
+    width:90px;
+    border:1px solid rgb(130, 179, 208);
+    transition: all 2s ease in;
+    border-radius: 6px;
+}
+
+.tab:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+    color:red;
+    transform: rotate(2deg)
+}
+.page{
+    margin-left: 430px;
+    margin-top:40px;
+}
+
+.app{
+    text-align: center;
+    color:red;
+}
+.wrapper{
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    height:100vh;
+    width: 100vw;
+}

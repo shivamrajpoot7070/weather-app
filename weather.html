@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+
+
+    <div class="wrapper">
+
+
+
+        <h1 class="app">Weather App</h1>
+
+<div class="page">
+
+        <div class="tab-container">
+
+            <button class="tab" yourweather> Your Weather</button>
+            <button class="tab" userweather> Search Weather</button>
+
+        </div>
+
+
+       
+    <div class="weather-container" main>
+
+                    <!-- // grant location container -->
+
+        <!-- <div class="grant-location-container">
+
+            <img src="loc.png" alt="" width="80" height="80" loading="lazy"> 
+            <p> Grant Location Access</p>
+            <p> Allow Access to get weather Information</p>
+            <button class="btn" data-grant-access> Grant Access</button>
+
+        </div> -->
+
+
+                  <!-- search form container -->
+
+        <form class="form-container" data-search-form>
+
+                <input placeholder="Enter City Name..." data-search-input class="form">
+
+                <button class="btn" searchweather>
+
+                    <img src="search.jpg" alt="" width="15" height="15" loading="lazy" >
+
+                </button>
+
+
+        </form>
+
+        <!-- show Weather Screen container -->
+
+    <div class="show-weather" showhide>
+
+        <div class="user-info-container">
+
+            <!-- city name and flag -->
+
+            
+            <p data-city-name> Arrah </p>
+            
+            <!-- // weaather description --> 
+
+
+            <!-- // weaather temp -->
+
+            <p data-temp> 25.08</p>
+
+
+        </div>
+
+        <!-- 3 cards parameter -->
+
+        <div class="parameter-container">
+
+            <!-- card1  -->
+
+            <div class="parameter">
+
+                <img src="gg.png" alt="" width="40" height="40">
+                <p>windspeed</p>
+                <p data-windspeed> 1.54m/s</p>
+
+            </div>
+
+            <!-- card 2 -->
+
+            <div class="parameter">
+
+                <img src="free-humidity-4596680-3796777.webp" alt=""  width="40" height="40">
+                <p>Humidity</p>
+                <p data-humidity> 20%</p>
+
+            </div>
+
+
+            <div class="parameter">
+
+                <img src="pngtree-vector-cloud-icon-png-image_939423.jpg" alt="" width="40" height="40">
+                <p>Clouds </p>
+                <p data-clouds> 0%</p>
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+    
+
+
+
+
+    <script src="weather.js"></script>
+</body>
+</html>
